@@ -1,0 +1,5 @@
+• Databricks Lakehouse Platform (24%): In this domain, you can learn about lakehouse concepts, Platform architecture, and benefits of the Lakehouse to Data Teams.
+• ELT with Spark SQL and Python (29%):  In this domain, you can get questions from topics such as Relational Entities and Just Enough Python. And topics covered such as how to Build ELT pipelines using Spark SQL & Python, Relational entities, ELT and Manipulating data with Spark SQL & Python.
+• Incremental Data Processing (22%): In this domain, you will be questioned on topics such as Structured Streaming, Auto Loader (streaming reads), Multi-hop Architecture, and Delta Live Tables.
+• Production Pipelines (16%): In this domain, you can gain skills to build production pipelines for data engineering applications and Databricks SQL queries and dashboards, which includes Workflows and Dashboards.
+Data Governance (9%): In this domain, you can learn on Unity catalog and Entity permissions.
