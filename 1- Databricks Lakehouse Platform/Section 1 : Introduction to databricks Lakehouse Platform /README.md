@@ -304,11 +304,11 @@ Some famous Apache projects:
 <img src="https://raw.githubusercontent.com/SalmaBoukhris/Databricks-Certified-Data-Engineer-Associate---Preparation/refs/heads/main/1-%20Databricks%20Lakehouse%20Platform/Images/Section%201/PIC%2010.png" alt="Data Lakehouse Overview" width="500"/>
 
 ---
-## ‣ 1.5 Databricks User Interface
+# ‣ 1.5 Databricks User Interface
 
 <img src="https://raw.githubusercontent.com/SalmaBoukhris/Databricks-Certified-Data-Engineer-Associate---Preparation/refs/heads/main/1-%20Databricks%20Lakehouse%20Platform/Images/Section%201/PIC%2011.png" alt="Data Lakehouse Overview" width="500"/>
 
----
+
 
 ### Main Navigation (Left Sidebar)
 - **New (+)** → Create or upload data, start a new notebook, query, dashboard, job, pipeline, alert, experiment, or model.  
@@ -356,7 +356,6 @@ On the right side, you’ll find:
 
 <img src="https://raw.githubusercontent.com/SalmaBoukhris/Databricks-Certified-Data-Engineer-Associate---Preparation/refs/heads/main/1-%20Databricks%20Lakehouse%20Platform/Images/Section%201/PIC%2021.png" alt="Data Lakehouse Overview" width="500"/>
 
----
 
 ### ✅ How They Work Together
 
