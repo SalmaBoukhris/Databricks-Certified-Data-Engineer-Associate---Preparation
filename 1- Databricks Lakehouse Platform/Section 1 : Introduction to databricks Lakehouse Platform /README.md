@@ -356,8 +356,7 @@ On the right side, you’ll find:
 
 <img src="https://raw.githubusercontent.com/SalmaBoukhris/Databricks-Certified-Data-Engineer-Associate---Preparation/refs/heads/main/1-%20Databricks%20Lakehouse%20Platform/Images/Section%201/PIC%2021.png" alt="Data Lakehouse Overview" width="500"/>
 
-
-### ✅ How They Work Together
+#### ✅ How They Work Together
 
 When you create an **Azure Databricks Workspace**, Azure automatically provisions several resources to make it work:
 
