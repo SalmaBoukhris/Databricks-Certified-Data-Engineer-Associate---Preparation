@@ -12,11 +12,11 @@ This page links the official PDFs, course modules (0–5), and practice resource
 - **Duration:** ~90 minutes
 - **Passing score:** ~70%  
 - **Official exam guide (PDF):**  
-  👉 [Databricks Exam Guide — open in browser](https://raw.githubusercontent.com/SalmaBoukhris/Databricks-Certified-Data-Engineer-Associate---Preparation/main/Assets/PDFs/databricks%20certified%20data%20engineer%20associate_exam-guide.pdf)
-
+👉 [Databricks Exam Guide — Open in Browser](https://github.com/SalmaBoukhris/Databricks-Certified-Data-Engineer-Associate---Preparation/blob/main/Assets/PDFs/databricks%20certified%20data%20engineer%20associate_exam-guide.pdf)
 ---
 
 ## 🧭 Exam Domains (weights)
+
 
 | Domain | Weight | Topics Covered |
 |--------|--------|---------------|
@@ -32,18 +32,23 @@ Each domain has its own folder in this repo for notes, notebooks, and diagrams.
 
 ## 📄 PDFs (open directly in the browser)
 
-### Main references
-- [Databricks Certified Associate Certification Overview](https://raw.githubusercontent.com/SalmaBoukhris/Databricks-Certified-Data-Engineer-Associate---Preparation/main/Assets/PDFs/Databricks%20Certified%20Associate%20Certification%20Overview.pdf)
-- [Data Engineering with Databricks (reference)](https://raw.githubusercontent.com/SalmaBoukhris/Databricks-Certified-Data-Engineer-Associate---Preparation/main/Assets/PDFs/Data%20Engineering%20with%20Databricks.pdf)
-- [Practice Exam — Data Engineer Associate](https://raw.githubusercontent.com/SalmaBoukhris/Databricks-Certified-Data-Engineer-Associate---Preparation/main/Assets/PDFs/PracticeExam-DataEngineerAssociate.pdf)
+## 📚 Main References
 
-### Course modules (0–5)
-- [Module 0 — Get Started with PySpark Programming](https://raw.githubusercontent.com/SalmaBoukhris/Databricks-Certified-Data-Engineer-Associate---Preparation/main/Assets/PDFs/de-mod-0-get-started-with-pyspark-programming.pdf)
-- [Module 1 — Get Started with Databricks Data Science & Engineering Workspace](https://raw.githubusercontent.com/SalmaBoukhris/Databricks-Certified-Data-Engineer-Associate---Preparation/main/Assets/PDFs/de-mod-1-get-started-with-databricks-data-science-and-engineering-workspace.pdf)
-- [Module 2 — Transform Data with Spark](https://raw.githubusercontent.com/SalmaBoukhris/Databricks-Certified-Data-Engineer-Associate---Preparation/main/Assets/PDFs/de-mod-2-transform-data-with-spark.pdf)
-- [Module 3 — Manage Data with Delta Lake](https://raw.githubusercontent.com/SalmaBoukhris/Databricks-Certified-Data-Engineer-Associate---Preparation/main/Assets/PDFs/de-mod-3-manage-data-with-delta-lake.pdf)
-- [Module 4 — Build Data Pipelines with Delta Live Tables](https://raw.githubusercontent.com/SalmaBoukhris/Databricks-Certified-Data-Engineer-Associate---Preparation/main/Assets/PDFs/de-mod-4-build-data-pipelines-with-delta-live-tables.pdf)
-- [Module 5 — Deploy Workloads with Databricks Workflows](https://raw.githubusercontent.com/SalmaBoukhris/Databricks-Certified-Data-Engineer-Associate---Preparation/main/Assets/PDFs/de-mod-5-deploy-workloads-with-databricks-workflows.pdf)
+- [Databricks Certified Associate Certification Overview](https://github.com/SalmaBoukhris/Databricks-Certified-Data-Engineer-Associate---Preparation/blob/main/Assets/PDFs/Databricks%20Certified%20Associate%20Certification%20Overview.pdf)
+- [Data Engineering with Databricks (Reference)](https://github.com/SalmaBoukhris/Databricks-Certified-Data-Engineer-Associate---Preparation/blob/main/Assets/PDFs/Data%20Engineering%20with%20Databricks.pdf)
+- [Practice Exam — Data Engineer Associate](https://github.com/SalmaBoukhris/Databricks-Certified-Data-Engineer-Associate---Preparation/blob/main/Assets/PDFs/PracticeExam-DataEngineerAssociate.pdf)
+
+---
+
+## 📘 Course Modules (0–5)
+
+- [Module 0 — Get Started with PySpark Programming](https://github.com/SalmaBoukhris/Databricks-Certified-Data-Engineer-Associate---Preparation/blob/main/Assets/PDFs/de-mod-0-get-started-with-pyspark-programming.pdf)
+- [Module 1 — Get Started with Databricks Data Science & Engineering Workspace](https://github.com/SalmaBoukhris/Databricks-Certified-Data-Engineer-Associate---Preparation/blob/main/Assets/PDFs/de-mod-1-get-started-with-databricks-data-science-and-engineering.pdf)
+- [Module 2 — Transform Data with Spark](https://github.com/SalmaBoukhris/Databricks-Certified-Data-Engineer-Associate---Preparation/blob/main/Assets/PDFs/de-mod-2-transform-data-with-spark.pdf)
+- [Module 3 — Manage Data with Delta Lake](https://github.com/SalmaBoukhris/Databricks-Certified-Data-Engineer-Associate---Preparation/blob/main/Assets/PDFs/de-mod-3-manage-data-with-delta-lake.pdf)
+- [Module 4 — Build Data Pipelines with Delta Live Tables](https://github.com/SalmaBoukhris/Databricks-Certified-Data-Engineer-Associate---Preparation/blob/main/Assets/PDFs/de-mod-4-build-data-pipelines-with-delta-live-tables.pdf)
+- [Module 5 — Deploy Workloads with Databricks Workflows](https://github.com/SalmaBoukhris/Databricks-Certified-Data-Engineer-Associate---Preparation/blob/main/Assets/PDFs/de-mod-5-deploy-workloads-with-databricks-workflows.pdf)
+
 
 ---
 
