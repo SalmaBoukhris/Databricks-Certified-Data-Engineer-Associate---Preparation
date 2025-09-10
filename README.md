@@ -6,6 +6,34 @@
      alt="Databricks Banner"
      style="max-width: 100%; width: 1095px; height: auto; border-radius: 8px;" />
 
+<p align="center">
+  <!-- Python versions (static text badge) -->
+  <img alt="python versions" src="https://img.shields.io/badge/python-3.10%20|%203.11%20|%203.12-3776AB?logo=python&logoColor=white">
+
+  <!-- Last commit (dynamic) -->
+  <img alt="last commit" src="https://img.shields.io/github/last-commit/SalmaBoukhris/Databricks-Certified-Data-Engineer-Associate---Preparation">
+
+  <!-- Repo size (dynamic) -->
+  <img alt="repo size" src="https://img.shields.io/github/repo-size/SalmaBoukhris/Databricks-Certified-Data-Engineer-Associate---Preparation">
+
+  <!-- Open issues (dynamic) -->
+  <img alt="issues" src="https://img.shields.io/github/issues/SalmaBoukhris/Databricks-Certified-Data-Engineer-Associate---Preparation">
+
+  <!-- Stars (dynamic) -->
+  <img alt="stars" src="https://img.shields.io/github/stars/SalmaBoukhris/Databricks-Certified-Data-Engineer-Associate---Preparation?style=social">
+
+  <!-- License (optional: shows if you add a LICENSE file) -->
+  <img alt="license" src="https://img.shields.io/github/license/SalmaBoukhris/Databricks-Certified-Data-Engineer-Associate---Preparation">
+
+  <!-- “Chat/Community” badge (point anywhere: Discussions/LinkedIn/Discord/etc.) -->
+  <a href="https://github.com/SalmaBoukhris/Databricks-Certified-Data-Engineer-Associate---Preparation/discussions">
+    <img alt="chat" src="https://img.shields.io/badge/chat-Discussions-0A66C2?logo=github">
+  </a>
+
+  <!-- Custom label badges for quick facts -->
+  <img alt="modules" src="https://img.shields.io/badge/Modules-6-blue">
+  <img alt="PDFs" src="https://img.shields.io/badge/PDFs-10+-brightgreen">
+</p>
 
 
 
@@ -164,7 +192,7 @@ Each domain has its own folder in this repo for notes, notebooks, and diagrams.
 
 ---
 
-## ✅ Book  
+### ✅ Book  
 
 <p>
   <img src="https://raw.githubusercontent.com/SalmaBoukhris/Databricks-Certified-Data-Engineer-Associate---Preparation/refs/heads/main/Assets/Images/Databricks%20Study%20guide%20%20book.png"
