@@ -1,16 +1,10 @@
-<h1 style="font-size:32px; color:#0033cc;">
+<h1 style="font-size:34px; color:#0033cc; font-style:italic;">
   Databricks Certified Data Engineer Associate — Preparation
 </h1>
 
-<img src="https://raw.githubusercontent.com/SalmaBoukhris/Databricks-Certified-Data-Engineer-Associate---Preparation/main/Assets/Images/Databricks%20Certified%20Data%20Engineer%20Associate.png" 
-     alt="Databricks Banner" width="800" />
-
-<strong>Source:</strong> 
-<a href="https://www.databricks.com/learn/certification/data-engineer-associate" target="_blank">
-  https://www.databricks.com/learn/certification/data-engineer-associate
-</a>
-
-
+<img src="https://raw.githubusercontent.com/SalmaBoukhris/Databricks-Certified-Data-Engineer-Associate---Preparation/refs/heads/main/Assets/Images/Banner%20PIC.png"
+     alt="Databricks Banner"
+     style="max-width: 100%; width: 1095px; height: auto; border-radius: 8px;" />
 
 
 
@@ -23,8 +17,8 @@ It includes:
 
 ---
 
+### ✅ Certification Overview
 
-## <span style="font-size:24px; color:#0033cc;">•</span>  Certification Overview
 
 - **Exam format:** Multiple-choice (scenario style)
 - **Duration:** ~90 minutes
@@ -36,7 +30,7 @@ It includes:
 ---
 
 
-## <span style="font-size:24px; color:#0033cc;">•</span>  Exam Domains (weights)
+### ✅ Exam Domains (weights)
 
 
 | Domain | Weight | Topics Covered |
@@ -52,7 +46,7 @@ Each domain has its own folder in this repo for notes, notebooks, and diagrams.
 ---
 
 
-## <span style="font-size:24px; color:#0033cc;">•</span>  PDFs (open directly in the browser)
+### ✅ PDFs 
 
 ###  Main References
 - [Databricks Certified Associate Certification Overview](https://github.com/SalmaBoukhris/Databricks-Certified-Data-Engineer-Associate---Preparation/blob/main/Assets/PDFs/Databricks%20Certified%20Associate%20Certification%20Overview.pdf)
@@ -60,7 +54,7 @@ Each domain has its own folder in this repo for notes, notebooks, and diagrams.
 - [Practice Exam — Data Engineer Associate](https://github.com/SalmaBoukhris/Databricks-Certified-Data-Engineer-Associate---Preparation/blob/main/Assets/PDFs/PracticeExam-DataEngineerAssociate.pdf)
 
 ---
-## <span style="font-size:24px; color:#0033cc;">•</span>  Course Modules 
+### ✅ Course Modules 
 
 - [Module 0 — Get Started with PySpark Programming](https://github.com/SalmaBoukhris/Databricks-Certified-Data-Engineer-Associate---Preparation/blob/main/Assets/PDFs/de-mod-0-get-started-with-pyspark-programming.pdf)
 - [Module 1 — Get Started with Databricks Data Science & Engineering Workspace](https://github.com/SalmaBoukhris/Databricks-Certified-Data-Engineer-Associate---Preparation/blob/main/Assets/PDFs/de-mod-1-get-started-with-databricks-data-science-and-engineering.pdf)
@@ -71,31 +65,98 @@ Each domain has its own folder in this repo for notes, notebooks, and diagrams.
 
 ---
 
-## <span style="font-size:24px; color:#0033cc;">•</span> Courses
+### ✅ Courses
 
 <p>
   <img src="https://raw.githubusercontent.com/SalmaBoukhris/Databricks-Certified-Data-Engineer-Associate---Preparation/main/Assets/Images/Udemy%20course.png"
        alt="Databricks Course Cover" width="160" align="left" />
 
   <strong>Databricks Certified Data Engineer Associate — Ultimate Prep</strong><br>
-  I used this Udemy course by 
-  <a href="https://www.linkedin.com/in/ramesh-retnasamy/" target="_blank"><strong>Ramesh Retnasamy</strong></a> 
-  and included a few screenshots and diagrams for clarity.<br><br>
-  🔗 [Open course on Udemy](https://www.udemy.com/course/databricks-certified-data-engineer-associate-ultimate-prep/?couponCode=PMNVD1525)
+  By <strong>Ramesh Retnasamy</strong>. I took some screenshots from his course for my summaries.<br><br>
+  🔗 <a href="https://www.udemy.com/course/databricks-certified-data-engineer-associate-ultimate-prep/?couponCode=PMNVD1525" target="_blank">
+    Open course on Udemy
+  </a>
 </p>
 
 <br clear="left"/>
 
----
 
 <p>
   <img src="https://raw.githubusercontent.com/SalmaBoukhris/Databricks-Certified-Data-Engineer-Associate---Preparation/refs/heads/main/Assets/Images/Practice%20Exam.png"
        alt="Databricks Preparation Cover" width="160" align="left" />
 
   <strong>Databricks Certified Data Engineer Associate — Preparation</strong><br>
-  by 
-  <a href="https://www.linkedin.com/in/deraralhussein/" target="_blank"><strong>Derar Al Hussein</strong></a> .<br><br>
   🔗 [Open course on Udemy](https://www.udemy.com/course/databricks-certified-data-engineer-associate/?couponCode=DEALAUG2025)
+</p>
+
+<br clear="left"/>
+
+<p>
+  <img src="https://img.youtube.com/vi/w0Qz-LbYatM/0.jpg"
+       alt="Databricks SQL Course Part 1" width="160" align="left" />
+
+  <strong>Databricks SQL: A Comprehensive Guide for Data Analysts (Part 1/2)</strong><br>
+  🔗 <a href="https://www.youtube.com/watch?v=w0Qz-LbYatM&t=12s" target="_blank">
+  Watch Part 1 on YouTube
+  </a>
+</p>
+
+<br clear="left"/>
+
+<p>
+  <img src="https://img.youtube.com/vi/w0Qz-LbYatM/0.jpg"
+       alt="Databricks SQL Course Part 2" width="160" align="left" />
+
+  <strong>Databricks SQL: A Comprehensive Guide for Data Analysts (Part 2/2)</strong><br>
+  🔗 <a href="https://www.youtube.com/watch?v=w0Qz-LbYatM&list=PL4i_dCkSm9rtGFee3JA9yQfu6GvpjYUiA&index=7" target="_blank">
+  Watch Part 2 on YouTube
+  </a>
+</p>
+
+<br clear="left"/>
+
+---
+
+
+### ✅ Practice Exams
+
+<p>
+  <img src="https://raw.githubusercontent.com/SalmaBoukhris/Databricks-Certified-Data-Engineer-Associate---Preparation/main/Assets/Images/Practice%20Exam%202.png"
+       alt="Practice Exams Cover" width="160" align="left" />
+
+  <strong>Databricks Certified Data Engineer Associate — Practice Exam</strong><br>
+ 
+  🔗 [Open practice exam on Udemy](https://www.udemy.com/course/databricks-certified-data-engineer-associate-practice-tests/)
+</p>
+
+<br clear="left"/>
+
+<p>
+
+<br clear="left"/>
+
+<p>
+  <img src="https://img.youtube.com/vi/BmhlAf3pk84/0.jpg"
+       alt="Databricks Exam Preparation - 45 Practice Questions & Answers"
+       width="160" align="left" style="margin-bottom: 15px;" />
+
+  <strong>Databricks Certified Data Engineer Associate Exam Preparation — 45 Practice Questions & Answers</strong><br><br>
+  🔗 <a href="https://www.youtube.com/watch?v=BmhlAf3pk84&list=PL4i_dCkSm9rtGFee3JA9yQfu6GvpjYUiA&index=5" target="_blank">
+    Watch on YouTube
+  </a>
+</p>
+
+<br clear="left"/><br>
+
+<p>
+  <img src="https://img.youtube.com/vi/prlaHcmNru0/0.jpg"
+       alt="Databricks Certified Data Engineer Associate Questions | Section 1"
+       width="160" align="left" style="margin-top: 10px;" />
+
+  <strong>Databricks Certified Data Engineer Associate Questions | Section 1</strong><br><br>
+  🔗 <a href="https://www.youtube.com/watch?v=prlaHcmNru0&list=PL4i_dCkSm9rtGFee3JA9yQfu6GvpjYUiA&index=8" target="_blank">
+    Watch on YouTube
+  </a>
 </p>
 
 <br clear="left"/>
@@ -103,18 +164,18 @@ Each domain has its own folder in this repo for notes, notebooks, and diagrams.
 
 ---
 
-
-## <span style="font-size:24px; color:#0033cc;">●</span> Practice Exam
+## ✅ Book  
 
 <p>
-  <img src="https://raw.githubusercontent.com/SalmaBoukhris/Databricks-Certified-Data-Engineer-Associate---Preparation/main/Assets/Images/Practice%20Exam%202.png"
-       alt="Practice Exams Cover" width="160" align="left" />
-
-  <strong>Databricks Certified Data Engineer Associate — Practice Exam</strong><br>
-   by 
+  <img src="https://raw.githubusercontent.com/SalmaBoukhris/Databricks-Certified-Data-Engineer-Associate---Preparation/refs/heads/main/Assets/Images/Databricks%20Study%20guide%20%20book.png"
+       alt="Databricks Study Guide" width="160" align="left" />
+  <strong><em>Databricks Certified Data Engineer Associate — Study Guide</em></strong><br>
+  by 
   <a href="https://www.linkedin.com/in/deraralhussein/" target="_blank"><strong>Derar Al Hussein</strong></a> .<br><br>
-  🔗 [Open practice exam on Udemy](https://www.udemy.com/course/databricks-certified-data-engineer-associate-practice-tests/)
+  This official study guide provides structured preparation, detailed explanations, and hands-on examples.<br><br>
+  🔗 <a href="https://www-oreilly-com.ezproxy.bramlib.on.ca/library/view/databricks-certified-data/9781098166823/" target="_blank">
+  Read on O’Reilly
+  </a>
 </p>
 
 <br clear="left"/>
-
