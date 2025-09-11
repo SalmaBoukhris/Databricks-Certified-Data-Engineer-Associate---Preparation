@@ -5,7 +5,7 @@
 
 The screenshots used for this section were taken from the [Databricks Certified Data Engineer Associate - Ultimate Prep Course](https://www.udemy.com/course/databricks-certified-data-engineer-associate-ultimate-prep/?couponCode=PMNVD1525) .
 
-<img src="https://raw.githubusercontent.com/SalmaBoukhris/Databricks-Certified-Data-Engineer-Associate---Preparation/refs/heads/main/1-databricks-lakehouse-platform/Images/Section%201/PIC%201.png" alt="Data Lakehouse Overview" width="500"/>
+<img src="https://raw.githubusercontent.com/SalmaBoukhris/Databricks-Certified-Data-Engineer-Associate---Preparation/refs/heads/main/1-databricks-lakehouse-platform/Images/Section1/PIC%201.png" alt="Data Lakehouse Overview" width="500"/>
          
 
 
@@ -18,7 +18,7 @@ The screenshots used for this section were taken from the [Databricks Certified 
 
 ---
 
-<img src="https://raw.githubusercontent.com/SalmaBoukhris/Databricks-Certified-Data-Engineer-Associate---Preparation/refs/heads/main/1-databricks-lakehouse-platform/Images/Section%201/PIC%202.png" alt="Data Lakehouse Overview" width="500"/>
+<img src="https://raw.githubusercontent.com/SalmaBoukhris/Databricks-Certified-Data-Engineer-Associate---Preparation/refs/heads/main/1-databricks-lakehouse-platform/Images/Section1/PIC%202.png" alt="Data Lakehouse Overview" width="500"/>
 
 
 
