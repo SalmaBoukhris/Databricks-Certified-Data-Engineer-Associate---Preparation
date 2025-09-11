@@ -413,12 +413,18 @@ This is Databricks’ “bundle” that includes:
 ---
 
 ### 8. Autoscaling
-- If enabled, Databricks can add more Worker VMs temporarily, then scale back down when load decreases.  
 
-**Example (banking):**  
-- Normal day = **2M transactions**  
-- Black Friday = **20M transactions** → spike  
-- Cluster scales from 2 Workers → 8 Workers  
+**Autoscaling Enabled** 
+
+- Databricks can add more Worker VMs temporarily, then scale back down when load decreases.
+- Example:
+Normal day = **2M transactions**, Black Friday = **20M transactions** → spike  
+Cluster scales from 2 Workers → 8 Workers 
+  
+**Autoscaling Disabled** ❌
+- The cluster will run with a **fixed number of workers** *(whatever you set)*.
+- Even if your job is **small** → extra workers **sit idle but still cost money**.
+- If your job is **huge** → the cluster may **run slower** or even **fail** if it doesn’t have enough workers.
 
 ---
 
