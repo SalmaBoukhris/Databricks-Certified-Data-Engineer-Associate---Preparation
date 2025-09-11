@@ -68,7 +68,7 @@ It includes:
 | [**2. ELT with Spark SQL and Python**](https://github.com/SalmaBoukhris/Databricks-Certified-Data-Engineer-Associate---Preparation/tree/main/2-ETL-with-apache-spark) | 29% | Build ELT pipelines, relational entities, manipulate data with Spark SQL & Python |
 | [**3. Incremental Data Processing**](https://github.com/SalmaBoukhris/Databricks-Certified-Data-Engineer-Associate---Preparation/tree/main/3-Incremental-data-processing) | 22% | Structured streaming, Auto Loader, multi-hop architecture, Delta Live Tables |
 | [**4. Production Pipelines**](https://github.com/SalmaBoukhris/Databricks-Certified-Data-Engineer-Associate---Preparation/tree/main/4-Production-pipelines) | 16% | Build production pipelines, Databricks workflows, SQL queries, dashboards |
-| [**5. Data Governance**](https://github.com/SalmaBoukhris/Databricks-Certified-Data-Engineer-Associate---Preparation/tree/main/5-Data-Governance-and-quality) | 9% | Unity Catalog, permissions, and security at the entity level |
+| [**5. Data Governance**](https://github.com/SalmaBoukhris/Databricks-Certified-Data-Engineer-Associate---Preparation/tree/main/5-Data-governance-and-quality) | 9% | Unity Catalog, permissions, and security at the entity level |
 
 
 
