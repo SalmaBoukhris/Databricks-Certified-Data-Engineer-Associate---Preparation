@@ -93,7 +93,7 @@ Each domain has its own folder in this repo for notes, notebooks, and diagrams.
 
 ---
 
-### ✅ Courses
+### ✅  Recommended Courses
 
 <p>
   <img src="https://raw.githubusercontent.com/SalmaBoukhris/Databricks-Certified-Data-Engineer-Associate---Preparation/main/Assets/Images/Udemy%20course.png"
@@ -165,7 +165,7 @@ Each domain has its own folder in this repo for notes, notebooks, and diagrams.
 
 <p>
   <img src="https://img.youtube.com/vi/BmhlAf3pk84/0.jpg"
-       alt="Databricks Exam Preparation - 45 Practice Questions & Answers"
+       alt="AZ-900 Exam Practice Questions 2025 | 106 Practice Exam Questions and Expert Insights"
        width="160" align="left" style="margin-bottom: 15px;" />
 
   <strong>Databricks Certified Data Engineer Associate Exam Preparation — 45 Practice Questions & Answers</strong><br><br>
