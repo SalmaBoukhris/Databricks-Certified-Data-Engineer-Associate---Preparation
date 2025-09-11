@@ -4,7 +4,7 @@
 
 ## ‣ 2.1 Databricks Architecture
 
-<img src="https://raw.githubusercontent.com/SalmaBoukhris/Databricks-Certified-Data-Engineer-Associate---Preparation/refs/heads/main/1-databricks-lakehouse-platfor/Images/Section1/PIC%205.png" alt="Data Lakehouse Overview" width="500"/>
+<img src="https://raw.githubusercontent.com/SalmaBoukhris/Databricks-Certified-Data-Engineer-Associate---Preparation/refs/heads/main/1-databricks-lakehouse-platform/Images/Section1/PIC%205.png" alt="Data Lakehouse Overview" width="500"/>
 
 ### 1) High-Level View
 Databricks uses a **two-plane architecture**:
@@ -276,9 +276,9 @@ suspicious.show()
 # 2.3 Databricks Cluster Configuration
 
 
-<img src="https://raw.githubusercontent.com/SalmaBoukhris/Databricks-Certified-Data-Engineer-Associate---Preparation/refs/heads/main/1-databricks-lakehouse-platfor/Images/Section2/Cluster%20Config.png" alt="Data Lakehouse Overview" width="500"/>
+<img src="https://raw.githubusercontent.com/SalmaBoukhris/Databricks-Certified-Data-Engineer-Associate---Preparation/refs/heads/main/1-databricks-lakehouse-platform/Images/Section2/Cluster%20Config.png" alt="Data Lakehouse Overview" width="500"/>
 
-<img src="https://raw.githubusercontent.com/SalmaBoukhris/Databricks-Certified-Data-Engineer-Associate---Preparation/refs/heads/main/1-databricks-lakehouse-platfor/Images/Section2/config%20pic.png" alt="Data Lakehouse Overview" width="500"/>
+<img src="https://raw.githubusercontent.com/SalmaBoukhris/Databricks-Certified-Data-Engineer-Associate---Preparation/refs/heads/main/1-databricks-lakehouse-platform/Images/Section2/config%20pic.png" alt="Data Lakehouse Overview" width="500"/>
 
 ---
 
