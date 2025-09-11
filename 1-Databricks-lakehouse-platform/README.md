@@ -8,8 +8,8 @@ and get introduced to the **Unity Catalog** for governance and security.
 
 ## Plan
 
-- [Section 1: Introduction to Databricks Lakehouse Platform](https://github.com/SalmaBoukhris/Databricks-Certified-Data-Engineer-Associate---Preparation/tree/main/1-Databricks-lakehouse-platform/Section-01-introduction-to-databricks-lakehouse-platform)
-- [Section 2: Databricks Warehouse Components](https://github.com/SalmaBoukhris/Databricks-Certified-Data-Engineer-Associate---Preparation/tree/main/1-Databricks-lakehouse-platform/Section-02-databricks-warehouse-components)
+- [Section 1: Introduction to Databricks Lakehouse Platform](https://github.com/SalmaBoukhris/Databricks-Certified-Data-Engineer-Associate---Preparation/tree/main/1-Databricks-lakehouse-platform/Section-01-Introduction-to-databricks-lakehouse-platform)
+- [Section 2: Databricks Warehouse Components](https://github.com/SalmaBoukhris/Databricks-Certified-Data-Engineer-Associate---Preparation/tree/main/1-Databricks-lakehouse-platform/Section-02-Databricks-warehouse-components)
 - [Section 3: Introduction to Unity Catalog](https://github.com/SalmaBoukhris/Databricks-Certified-Data-Engineer-Associate---Preparation/tree/main/1-Databricks-lakehouse-platform/Section-03-Introduction-to-unity-catalog)
 
 
