@@ -388,3 +388,4 @@ When you create an **Azure Databricks Workspace**, Azure automatically provision
 5. **Access Connector (unity-catalog-access-connector)**  
    - Connects Unity Catalog governance to your Azure data.  
    - *Example:* Junior analyst runs a SQL query → Unity Catalog ensures they see **only anonymized data**, while compliance officers see full details.  
+
