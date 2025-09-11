@@ -283,7 +283,7 @@ suspicious.show()
 ### 1. Policy
 - Controls what users are allowed to configure.
 
-### **Unrestricted**
+### **a) Unrestricted**
 - The user can pick any settings.  
 In enterprises, admins often lock this down for cost/security reasons.
 
@@ -292,7 +292,7 @@ In enterprises, admins often lock this down for cost/security reasons.
 - **Limits** → None by default — you can choose very large/expensive clusters.
 - **Risk** → High cost/security risk, so enterprises usually disable this or apply guardrails.
 
-### **Personal Compute**
+### **b) Personal Compute**
 This is a **default policy** that creates **lightweight, single-user clusters**.  
 It’s designed for **personal use, prototyping, and smaller workloads**.
 
@@ -302,19 +302,19 @@ It’s designed for **personal use, prototyping, and smaller workloads**.
 
 > 💡 **Note:** This is your **own personal sandbox cluster** — **not** meant for production or shared team workloads.
 
-### **Power User Compute**
+### **c) Power User Compute**
 For **experienced users** who need more power than **Personal Compute**.
 
 - **Bigger machines allowed**, but still within **some guardrails** *(not fully open)*.
 - **Balances flexibility** with **cost control**.
 
-### **Shared Compute**
+### **d) Shared Compute**
 A **shared cluster** where **multiple people** can attach notebooks.
 
 - **Saves cost** → one cluster instead of many.
 - **Risk** → **noisy neighbors** *(one user’s heavy job can slow others down)*.
 
-### **Legacy Shared Compute**
+### **e) Legacy Shared Compute**
 An **older version** of **Shared Compute**.
 
 - Still exists in **some workspaces**.
@@ -323,28 +323,26 @@ An **older version** of **Shared Compute**.
 ---
 
 ### 2. Multi node vs Single node
+
 - **Multi node** = 1 Driver VM + multiple Worker VMs (classic Spark cluster).  
 - **Single node** = only the Driver VM (good for small tests or dev).  
-👉 **Here, Multi node is chosen → meaning a real Spark cluster with distributed workers.**
 
 ---
 
 ### 3. Access mode
 - Defines how users can access the cluster.  
-### **Single User** 🔹
+### **a) Single User** 🔹
 - Only **one user** *(the owner)* can attach notebooks.
 - Supports **all languages** *(Python, SQL, Scala, R, Java)*.
 - Best for **private work, debugging, and experiments**.
 
----
-
-### **Shared** 
+### **b) Shared** 
 - **Multiple users** can attach notebooks to the cluster.
 - Supports **Python, Scala, SQL only** *(not R or Java)*.
 - Each user runs in an **isolated process** *(safer)*.
 - Best for **team collaboration**.
 
-### **No Isolation Shared** 
+### **c) No Isolation Shared** 
 - Like **Shared**, but with **no process isolation** *(everyone uses the same login on one machine)*.
 - Supports **all languages**.
 - **Faster and cheaper**, but **less secure** *(users can interfere with each other)*.
