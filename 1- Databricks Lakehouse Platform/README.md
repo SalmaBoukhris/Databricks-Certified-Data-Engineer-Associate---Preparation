@@ -5,20 +5,12 @@ This chapter provides an overview of the **Databricks Lakehouse Platform**, its 
 You’ll learn how the Lakehouse combines the strengths of data lakes and data warehouses, explore its main components,  
 and get introduced to the **Unity Catalog** for governance and security.
 
-## Plan 
-
-- [Section 1: Introduction to Databricks Lakehouse Platform](https://github.com/SalmaBoukhris/Databricks-Certified-Data-Engineer-Associate---Preparation/tree/main/1-%20Databricks%20Lakehouse%20Platform/Section%201%20%3A%20Introduction%20to%20databricks%20Lakehouse%20Platform)  
-
-- [Section 2: Databricks Warehouse Components](https://github.com/SalmaBoukhris/Databricks-Certified-Data-Engineer-Associate---Preparation/tree/main/1-%20Databricks%20Lakehouse%20Platform/Section%202%20%3A%20Introduction%20to%20Databricks%20Lakehouse%20Platform)  
-
-- [Section 3: Introduction to Unity Catalog](https://github.com/SalmaBoukhris/Databricks-Certified-Data-Engineer-Associate---Preparation/tree/main/1-%20Databricks%20Lakehouse%20Platform/Section%203%20%3A%20Introduction%20to%20unity%20Catalog)
-
 
 ## Plan
 
 - [Section 1: Introduction to Databricks Lakehouse Platform](./section-01-introduction/)
 - [Section 2: Databricks Warehouse Components](./section-02-warehouse-components/)
-- [Section 3: Introduction to Unity Catalog](./section-03-unity-catalog/)
+- [Section 3: Introduction to Unity Catalog](https://github.com/SalmaBoukhris/Databricks-Certified-Data-Engineer-Associate---Preparation/tree/main/1-%20Databricks%20Lakehouse%20Platform/section-3-Introduction-to-unity-catalog)
 
 
 -----
