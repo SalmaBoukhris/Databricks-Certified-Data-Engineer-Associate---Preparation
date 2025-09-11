@@ -11,7 +11,15 @@ and get introduced to the **Unity Catalog** for governance and security.
 
 - [Section 2: Databricks Warehouse Components](https://github.com/SalmaBoukhris/Databricks-Certified-Data-Engineer-Associate---Preparation/tree/main/1-%20Databricks%20Lakehouse%20Platform/Section%202%20%3A%20Introduction%20to%20Databricks%20Lakehouse%20Platform)  
 
-- [Section 3: Introduction to Unity Catalog](https://github.com/SalmaBoukhris/Databricks-Certified-Data-Engineer-Associate---Preparation/tree/main/1-%20Databricks%20Lakehouse%20Platform/Section%203%20%3A%20Introduction%20to%20unity%20Catalog)  
+- [Section 3: Introduction to Unity Catalog](https://github.com/SalmaBoukhris/Databricks-Certified-Data-Engineer-Associate---Preparation/tree/main/1-%20Databricks%20Lakehouse%20Platform/Section%203%20%3A%20Introduction%20to%20unity%20Catalog)
+
+
+## Plan
+
+- [Section 1: Introduction to Databricks Lakehouse Platform](./section-01-introduction/)
+- [Section 2: Databricks Warehouse Components](./section-02-warehouse-components/)
+- [Section 3: Introduction to Unity Catalog](./section-03-unity-catalog/)
+
 
 -----
 
