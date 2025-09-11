@@ -5,7 +5,8 @@
 
 The screenshots used for this section were taken from the [Databricks Certified Data Engineer Associate - Ultimate Prep Course](https://www.udemy.com/course/databricks-certified-data-engineer-associate-ultimate-prep/?couponCode=PMNVD1525) .
 
-<img src="https://raw.githubusercontent.com/SalmaBoukhris/Databricks-Certified-Data-Engineer-Associate---Preparation/refs/heads/main/1-%20Databricks%20Lakehouse%20Platform/Images/Section%201/PIC%201.png" alt="Data Lakehouse Overview" width="500"/>
+<img src="https://raw.githubusercontent.com/SalmaBoukhris/Databricks-Certified-Data-Engineer-Associate---Preparation/refs/heads/main/1-databricks-lakehouse-platform/Images/Section%201/PIC%201.png" alt="Data Lakehouse Overview" width="500"/>
+         
 
 
 ##  ‣ Data Warehouse
@@ -17,7 +18,7 @@ The screenshots used for this section were taken from the [Databricks Certified 
 
 ---
 
-<img src="https://raw.githubusercontent.com/SalmaBoukhris/Databricks-Certified-Data-Engineer-Associate---Preparation/refs/heads/main/1-%20Databricks%20Lakehouse%20Platform/Images/Section%201/PIC%202.png" alt="Data Lakehouse Overview" width="500"/>
+<img src="https://raw.githubusercontent.com/SalmaBoukhris/Databricks-Certified-Data-Engineer-Associate---Preparation/refs/heads/main/1-databricks-lakehouse-platform/Images/Section%201/PIC%202.png" alt="Data Lakehouse Overview" width="500"/>
 
 
 
@@ -76,7 +77,7 @@ That’s how time travel works — the log tells Spark which Parquet files to us
 
 ---
 
-<img src="https://raw.githubusercontent.com/SalmaBoukhris/Databricks-Certified-Data-Engineer-Associate---Preparation/refs/heads/main/1-%20Databricks%20Lakehouse%20Platform/Images/Section%201/PIC%203.png" alt="Data Lakehouse Overview" width="500"/>
+<img src="https://raw.githubusercontent.com/SalmaBoukhris/Databricks-Certified-Data-Engineer-Associate---Preparation/refs/heads/main/1-databricks-lakehouse-platform/Images/Section%201/PIC%203.png" alt="Data Lakehouse Overview" width="500"/>
 
 
 ## ‣ Data Lakehouse
@@ -112,7 +113,7 @@ ACID = four key rules that make data safe and consistent:
 # 1.2 Medallion Architecture
 
 
-<img src="https://raw.githubusercontent.com/SalmaBoukhris/Databricks-Certified-Data-Engineer-Associate---Preparation/refs/heads/main/1-%20Databricks%20Lakehouse%20Platform/Images/Section%201/PIC%204.png" alt="Data Lakehouse Overview" width="500"/>
+<img src="https://raw.githubusercontent.com/SalmaBoukhris/Databricks-Certified-Data-Engineer-Associate---Preparation/refs/heads/main/1-databricks-lakehouse-platform/Images/Section%201/PIC%204.png" alt="Data Lakehouse Overview" width="500"/>
 
 
 ## ‣ Medallion Architecture
@@ -264,7 +265,7 @@ Some famous Apache projects:
 2. From the **top left menu (3 lines)**, click **Create a resource**.  
 3. Search for **Azure Databricks** (black and red logo), then click **Create**.  
 
-<img src="https://raw.githubusercontent.com/SalmaBoukhris/Databricks-Certified-Data-Engineer-Associate---Preparation/refs/heads/main/1-%20Databricks%20Lakehouse%20Platform/Images/Section%201/PIC%206.png" alt="Data Lakehouse Overview" width="500"/>
+<img src="https://raw.githubusercontent.com/SalmaBoukhris/Databricks-Certified-Data-Engineer-Associate---Preparation/refs/heads/main/1-databricks-lakehouse-platform/Images/Section%201/PIC%206.png" alt="Data Lakehouse Overview" width="500"/>
 
 
 
@@ -277,7 +278,7 @@ Some famous Apache projects:
 
 ➡️ Click **Next** to continue.  
 
-<img src="https://raw.githubusercontent.com/SalmaBoukhris/Databricks-Certified-Data-Engineer-Associate---Preparation/refs/heads/main/1-%20Databricks%20Lakehouse%20Platform/Images/Section%201/PIC%207.png" alt="Data Lakehouse Overview" width="500"/>
+<img src="https://raw.githubusercontent.com/SalmaBoukhris/Databricks-Certified-Data-Engineer-Associate---Preparation/refs/heads/main/1-databricks-lakehouse-platform/Images/Section%201/PIC%207.png" alt="Data Lakehouse Overview" width="500"/>
 
 ---
 
@@ -286,7 +287,7 @@ Some famous Apache projects:
 1. Click **Next**.  
 2. **Encryption:** Leave them off.  
 
-<img src="https://raw.githubusercontent.com/SalmaBoukhris/Databricks-Certified-Data-Engineer-Associate---Preparation/refs/heads/main/1-%20Databricks%20Lakehouse%20Platform/Images/Section%201/PIC%208.png" alt="Data Lakehouse Overview" width="500"/>
+<img src="https://raw.githubusercontent.com/SalmaBoukhris/Databricks-Certified-Data-Engineer-Associate---Preparation/refs/heads/main/1-databricks-lakehouse-platform/Images/Section%201/PIC%208.png" alt="Data Lakehouse Overview" width="500"/>
 
 ---
 
@@ -295,7 +296,7 @@ Some famous Apache projects:
 1. Click **Next** again.  
 2. Leave the remaining options off / default.  
 
-<img src="https://raw.githubusercontent.com/SalmaBoukhris/Databricks-Certified-Data-Engineer-Associate---Preparation/refs/heads/main/1-%20Databricks%20Lakehouse%20Platform/Images/Section%201/PIC%209.png" alt="Data Lakehouse Overview" width="500"/>
+<img src="https://raw.githubusercontent.com/SalmaBoukhris/Databricks-Certified-Data-Engineer-Associate---Preparation/refs/heads/main/1-databricks-lakehouse-platform/Images/Section%201/PIC%209.png" alt="Data Lakehouse Overview" width="500"/>
 
 
 ---
@@ -305,12 +306,12 @@ Some famous Apache projects:
 2. Wait for validation to succeed.  
 3. Click **Create**.  
 
-<img src="https://raw.githubusercontent.com/SalmaBoukhris/Databricks-Certified-Data-Engineer-Associate---Preparation/refs/heads/main/1-%20Databricks%20Lakehouse%20Platform/Images/Section%201/PIC%2010.png" alt="Data Lakehouse Overview" width="500"/>
+<img src="https://raw.githubusercontent.com/SalmaBoukhris/Databricks-Certified-Data-Engineer-Associate---Preparation/refs/heads/main/1-databricks-lakehouse-platform/Images/Section%201/PIC%2010.png" alt="Data Lakehouse Overview" width="500"/>
 
 ---
 # ‣ 1.5 Databricks User Interface
 
-<img src="https://raw.githubusercontent.com/SalmaBoukhris/Databricks-Certified-Data-Engineer-Associate---Preparation/refs/heads/main/1-%20Databricks%20Lakehouse%20Platform/Images/Section%201/PIC%2011.png" alt="Data Lakehouse Overview" width="500"/>
+<img src="https://raw.githubusercontent.com/SalmaBoukhris/Databricks-Certified-Data-Engineer-Associate---Preparation/refs/heads/main/1-databricks-lakehouse-platform/Images/Section%201/PIC%2011.png" alt="Data Lakehouse Overview" width="500"/>
 
 
 
@@ -358,7 +359,7 @@ On the right side, you’ll find:
 
 ### ‣ The Resource That Was Created
 
-<img src="https://raw.githubusercontent.com/SalmaBoukhris/Databricks-Certified-Data-Engineer-Associate---Preparation/refs/heads/main/1-%20Databricks%20Lakehouse%20Platform/Images/Section%201/PIC%2021.png" alt="Data Lakehouse Overview" width="500"/>
+<img src="https://raw.githubusercontent.com/SalmaBoukhris/Databricks-Certified-Data-Engineer-Associate---Preparation/refs/heads/main/1-databricks-lakehouse-platform/Images/Section%201/PIC%2021.png" alt="Data Lakehouse Overview" width="500"/>
 
 #### ✅ How They Work Together
 
