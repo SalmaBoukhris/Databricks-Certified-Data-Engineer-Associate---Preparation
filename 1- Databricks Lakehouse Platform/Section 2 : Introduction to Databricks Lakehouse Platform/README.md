@@ -285,7 +285,7 @@ suspicious.show()
 ### 1. Policy
 Controls what users are allowed to configure.
 
-### **a) Unrestricted**
+**a) Unrestricted**
 
 - **Access**: User can configure **any settings** (cluster size, runtime, autoscaling, etc.).
 - **Purpose**: Maximum flexibility for advanced work.
@@ -293,7 +293,7 @@ Controls what users are allowed to configure.
 - **Risk**:High cost/security risk, so enterprises usually disable this or apply guardrails.
 - In enterprises, admins often lock this down for cost/security reasons.
 
-### **b) Personal Compute**
+**b) Personal Compute**
  
 - This is a **default policy** that creates **lightweight, single-user clusters**.
 - It’s designed for **personal use, prototyping, and smaller workloads**. 
@@ -303,19 +303,19 @@ Controls what users are allowed to configure.
 
 > 💡 **Note:** This is your **own personal sandbox cluster** — **not** meant for production or shared team workloads.
 
-### **c) Power User Compute**
+**c) Power User Compute**
 
 - For **experienced users** who need more power than **Personal Compute**.
 - **Bigger machines allowed**, but still within **some guardrails** *(not fully open)*.
 - **Balances flexibility** with **cost control**.
 
-### **d) Shared Compute**
+**d) Shared Compute**
 
 - A **shared cluster** where **multiple people** can attach notebooks.
 - **Saves cost** → one cluster instead of many.
 - **Risk** → **noisy neighbors** *(one user’s heavy job can slow others down)*.
 
-### **e) Legacy Shared Compute**
+**e) Legacy Shared Compute**
 
 - An **older version** of **Shared Compute**.
 - Still exists in **some workspaces**.
@@ -334,19 +334,19 @@ Controls what users are allowed to configure.
 
 Defines how users can access the cluster.
 
-### **a) Single User** 
+**a) Single User** 
 
 - Only **one user** *(the owner)* can attach notebooks.
 - Supports **all languages** *(Python, SQL, Scala, R, Java)*.
 - Best for **private work, debugging, and experiments**.
 
-### **b) Shared** 
+**b) Shared** 
 - **Multiple users** can attach notebooks to the cluster.
 - Supports **Python, Scala, SQL only** *(not R or Java)*.
 - Each user runs in an **isolated process** *(safer)*.
 - Best for **team collaboration**.
 
-### **c) No Isolation Shared** 
+**c) No Isolation Shared** 
 - Like **Shared**, but with **no process isolation** *(everyone uses the same login on one machine)*.
 - Supports **all languages**.
 - **Faster and cheaper**, but **less secure** *(users can interfere with each other)*.
@@ -358,14 +358,14 @@ Defines how users can access the cluster.
 - The **software stack** on the cluster = the set of software layers that run together on your cluster (Driver + Worker VMs).  
 ➡️ **(Spark version + Scala + DB runtime)**
 
-### ✦ Apache Spark version
+**✦ Apache Spark version**  
 - Spark = the big data engine that processes your data across VMs.
 
-### ✦ Scala version
+**✦ Scala version**  
 - Spark itself is **written in Scala** (a JVM language like Java).  
 - Even if you write in Python (PySpark) or SQL, under the hood Spark still needs Scala/Java.
 
-### ✦ DB Runtime  
+**✦ DB Runtime**    
 This is Databricks’ “bundle” that includes:
 - Spark + Scala version  
 - Built-in connectors to cloud storage (Azure, AWS, GCP)  
@@ -375,6 +375,7 @@ This is Databricks’ “bundle” that includes:
 👉 *“What software tools should every VM in my cluster come with by default?”*
 
 **Example configuration:**  
+
 - Choose **Databricks Runtime 11.3 LTS (Scala 2.12, Spark 3.3.0)**  
   - Spark 3.3.0 → lets you process millions of transactions in parallel.  
   - Scala 2.12 → Spark’s native language.  
@@ -446,14 +447,16 @@ Cluster scales from 2 Workers → 8 Workers
 ---
 
 
-### 10. Advanced options
+### 11. Advanced options
 
-### **a) Azure Data Lake Storage credential passthrough** 
--  What it does: Lets you use your own Azure AD identity to access data in ADLS Gen2 (no need to manually manage keys/secrets).
--  When to use: If your company uses Azure AD for permissions, enabling passthrough ensures fine-grained access control (you only see the files you’re allowed to).
+**a) Azure Data Lake Storage credential passthrough**
+- Configure where **cluster logs** (stdout, stderr, Spark logs) are stored.
+- What it does: Lets you use your own Azure AD (Active Directory ) identity to access data in ADLS Gen2 (no need to manually manage keys/secrets).
+- When to use: If your company uses Azure AD for permissions, enabling passthrough ensures fine-grained access control (you only see the files you’re allowed to).
 - If off: You’d need to set credentials manually (via service principal, keys, or Databricks secrets).
 
-  ### **b) Spark Config** 
+
+**b) Spark Config** 
 This lets you pass custom Spark configurations when the cluster starts.
 
 **Example:**
@@ -466,12 +469,12 @@ spark.databricks.cluster.profile singleNode
 
 These environment variables can be accessed inside your Spark jobs and notebooks.
 
-### **C). Logging** 
+**C) Logging** 
 - Configure where **cluster logs** (stdout, stderr, Spark logs) are stored.  
 - Usually sent to **DBFS** (Databricks File System) or **cloud storage** (S3, ADLS, GCS).  
 - Important for **debugging jobs** and for **compliance** (auditing).  
 
-### **D). Init Scripts** 
+**D) Init Scripts** 
 - Scripts that run **automatically** when a cluster starts.  
 - Stored in **DBFS**, **cloud storage**, or **workspace files**.  
 **Examples:**  
