@@ -392,7 +392,7 @@ This is Databricks’ “bundle” that includes:
 
 ### 6. Worker type
 - Defines what kind of **Azure VM** is used for workers.  
-- Example: `Standard_DS3_v2` → 14 GB RAM, 4 cores per VM.  
+- Example: `Standard_DS3_v2` → 14 GB RAM, 4 cores: This means each node (VM) in your cluster will have 4 CPU cores & 14 GB of RAM.
 - These are the **machines that crunch data** in parallel.  
 
 **Example:**  
