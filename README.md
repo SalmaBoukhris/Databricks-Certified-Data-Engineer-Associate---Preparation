@@ -49,11 +49,14 @@ It includes:
 
 
 - **Exam format:** Multiple-choice (scenario style)
+- **Total number of questions:**  45
 - **Duration:** ~90 minutes
 - **Passing score:** ~70%  
-- **Official exam guide (PDF):**  
+- **Official exam guide:**  
 
-👉 [Databricks Exam Guide — Open in Browser](https://github.com/SalmaBoukhris/Databricks-Certified-Data-Engineer-Associate---Preparation/blob/main/Assets/PDFs/databricks%20certified%20data%20engineer%20associate_exam-guide.pdf)
+👉 [Databricks Exam Guide — PDF](https://github.com/SalmaBoukhris/Databricks-Certified-Data-Engineer-Associate---Preparation/blob/main/Assets/PDFs/databricks%20certified%20data%20engineer%20associate_exam-guide.pdf)
+
+👉 [Databricks Certified Data Engineer Associate- Official Page](https://www.databricks.com/learn/certification/data-engineer-associate)
 
 ---
 
@@ -69,7 +72,8 @@ It includes:
 | **4. Production Pipelines** | 16% | Build production pipelines, Databricks workflows, SQL queries, dashboards |
 | **5. Data Governance** | 9% | Unity Catalog, permissions, and security at the entity level |
 
-Each domain has its own folder in this repo for notes, notebooks, and diagrams.
+Each domain is organized into its own folder within this repository, with dedicated sections in each domain to support structured exam preparation.
+
 
 ---
 
