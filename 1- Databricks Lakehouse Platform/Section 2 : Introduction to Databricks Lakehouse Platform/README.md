@@ -281,21 +281,20 @@ suspicious.show()
 ---
 
 ### 1. Policy
-- Controls what users are allowed to configure.
+Controls what users are allowed to configure.
 
 ### **a) Unrestricted**
-- The user can pick any settings.  
-In enterprises, admins often lock this down for cost/security reasons.
 
-- **Access** → User can configure **any settings** (cluster size, runtime, autoscaling, etc.).
-- **Purpose** → Maximum flexibility for advanced work.
-- **Limits** → None by default — you can choose very large/expensive clusters.
-- **Risk** → High cost/security risk, so enterprises usually disable this or apply guardrails.
+- **Access**: User can configure **any settings** (cluster size, runtime, autoscaling, etc.).
+- **Purpose**: Maximum flexibility for advanced work.
+- **Limits**: None by default — you can choose very large/expensive clusters.
+- **Risk**:High cost/security risk, so enterprises usually disable this or apply guardrails.
+- In enterprises, admins often lock this down for cost/security reasons.
 
 ### **b) Personal Compute**
-This is a **default policy** that creates **lightweight, single-user clusters**.  
-It’s designed for **personal use, prototyping, and smaller workloads**.
-
+ 
+- This is a **default policy** that creates **lightweight, single-user clusters**.
+- It’s designed for **personal use, prototyping, and smaller workloads**. 
 - You get **single-user access only** *(the cluster is bound to your account)*.
 - It **prevents sharing** or team-wide usage.
 - It typically **restricts large instance types** to control costs.
@@ -303,20 +302,20 @@ It’s designed for **personal use, prototyping, and smaller workloads**.
 > 💡 **Note:** This is your **own personal sandbox cluster** — **not** meant for production or shared team workloads.
 
 ### **c) Power User Compute**
-For **experienced users** who need more power than **Personal Compute**.
 
+- For **experienced users** who need more power than **Personal Compute**.
 - **Bigger machines allowed**, but still within **some guardrails** *(not fully open)*.
 - **Balances flexibility** with **cost control**.
 
 ### **d) Shared Compute**
-A **shared cluster** where **multiple people** can attach notebooks.
 
+- A **shared cluster** where **multiple people** can attach notebooks.
 - **Saves cost** → one cluster instead of many.
 - **Risk** → **noisy neighbors** *(one user’s heavy job can slow others down)*.
 
 ### **e) Legacy Shared Compute**
-An **older version** of **Shared Compute**.
 
+- An **older version** of **Shared Compute**.
 - Still exists in **some workspaces**.
 - Usually **replaced by Shared Compute** in most environments.
   
@@ -330,8 +329,11 @@ An **older version** of **Shared Compute**.
 ---
 
 ### 3. Access mode
-- Defines how users can access the cluster.  
-### **a) Single User** 🔹
+
+Defines how users can access the cluster.
+
+### **a) Single User** 
+
 - Only **one user** *(the owner)* can attach notebooks.
 - Supports **all languages** *(Python, SQL, Scala, R, Java)*.
 - Best for **private work, debugging, and experiments**.
