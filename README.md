@@ -64,11 +64,11 @@ It includes:
 
 | Domain | Weight | Topics Covered |
 |--------|--------|----------------|
-| [**1. Databricks Lakehouse Platform**](https://github.com/SalmaBoukhris/Databricks-Certified-Data-Engineer-Associate---Preparation/tree/main/1-databricks-lakehouse-platform) | 24% | Lakehouse concepts, platform architecture, benefits for data teams |
+| [**1. Databricks Lakehouse Platform**](https://github.com/SalmaBoukhris/Databricks-Certified-Data-Engineer-Associate---Preparation/tree/main/1-Databricks-lakehouse-platform) | 24% | Lakehouse concepts, platform architecture, benefits for data teams |
 | [**2. ELT with Spark SQL and Python**](https://github.com/SalmaBoukhris/Databricks-Certified-Data-Engineer-Associate---Preparation/tree/main/2-ETL-with-apache-spark) | 29% | Build ELT pipelines, relational entities, manipulate data with Spark SQL & Python |
-| [**3. Incremental Data Processing**](https://github.com/SalmaBoukhris/Databricks-Certified-Data-Engineer-Associate---Preparation/tree/main/3-incremental-data-processing) | 22% | Structured streaming, Auto Loader, multi-hop architecture, Delta Live Tables |
-| [**4. Production Pipelines**](https://github.com/SalmaBoukhris/Databricks-Certified-Data-Engineer-Associate---Preparation/tree/main/4-production-pipelines) | 16% | Build production pipelines, Databricks workflows, SQL queries, dashboards |
-| [**5. Data Governance**](https://github.com/SalmaBoukhris/Databricks-Certified-Data-Engineer-Associate---Preparation/tree/main/5-data-governance-and-quality) | 9% | Unity Catalog, permissions, and security at the entity level |
+| [**3. Incremental Data Processing**](https://github.com/SalmaBoukhris/Databricks-Certified-Data-Engineer-Associate---Preparation/tree/main/3-Incremental-data-processing) | 22% | Structured streaming, Auto Loader, multi-hop architecture, Delta Live Tables |
+| [**4. Production Pipelines**](https://github.com/SalmaBoukhris/Databricks-Certified-Data-Engineer-Associate---Preparation/tree/main/4-Production-pipelines) | 16% | Build production pipelines, Databricks workflows, SQL queries, dashboards |
+| [**5. Data Governance**](https://github.com/SalmaBoukhris/Databricks-Certified-Data-Engineer-Associate---Preparation/tree/main/5-Data-Governance-and-quality) | 9% | Unity Catalog, permissions, and security at the entity level |
 
 
 
