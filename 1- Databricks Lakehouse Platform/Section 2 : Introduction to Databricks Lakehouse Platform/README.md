@@ -278,6 +278,8 @@ suspicious.show()
 
 <img src="https://raw.githubusercontent.com/SalmaBoukhris/Databricks-Certified-Data-Engineer-Associate---Preparation/refs/heads/main/1-%20Databricks%20Lakehouse%20Platform/Images/Section2/Cluster%20Config.png" alt="Data Lakehouse Overview" width="500"/>
 
+<img src="https://raw.githubusercontent.com/SalmaBoukhris/Databricks-Certified-Data-Engineer-Associate---Preparation/refs/heads/main/1-%20Databricks%20Lakehouse%20Platform/Images/Section2/config%20pic.png" alt="Data Lakehouse Overview" width="500"/>
+
 ---
 
 ### 1. Policy
@@ -441,6 +443,39 @@ Cluster scales from 2 Workers → 8 Workers
 - **Risk**: not reliable for production (good for dev/test).  
 - **Benefit**: big cost savings.  
 
+---
 
 
+### 10. Advanced options
+
+### **a) Azure Data Lake Storage credential passthrough** 
+-  What it does: Lets you use your own Azure AD identity to access data in ADLS Gen2 (no need to manually manage keys/secrets).
+-  When to use: If your company uses Azure AD for permissions, enabling passthrough ensures fine-grained access control (you only see the files you’re allowed to).
+- If off: You’d need to set credentials manually (via service principal, keys, or Databricks secrets).
+
+  ### **b) Spark Config** 
+This lets you pass custom Spark configurations when the cluster starts.
+
+**Example:**
+spark.master local[*, 4]
+spark.databricks.cluster.profile singleNode
+
+- `MY_VAR` = simple variable.  
+- `MY_OTHER_VAR` = builds on `MY_VAR`.  
+- `MY_SECRET_DB_PASSWORD` = securely pulled from **Databricks secrets** (so you don’t hardcode passwords).  
+
+These environment variables can be accessed inside your Spark jobs and notebooks.
+
+### **C). Logging** 
+- Configure where **cluster logs** (stdout, stderr, Spark logs) are stored.  
+- Usually sent to **DBFS** (Databricks File System) or **cloud storage** (S3, ADLS, GCS).  
+- Important for **debugging jobs** and for **compliance** (auditing).  
+
+### **D). Init Scripts** 
+- Scripts that run **automatically** when a cluster starts.  
+- Stored in **DBFS**, **cloud storage**, or **workspace files**.  
+**Examples:**  
+  - Install extra libraries (e.g., custom Python package, system dependency).  
+  - Configure environment variables.  
+  - Mount external storage.  
 
