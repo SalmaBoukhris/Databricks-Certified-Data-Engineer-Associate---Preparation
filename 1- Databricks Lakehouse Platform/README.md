@@ -10,7 +10,7 @@ and get introduced to the **Unity Catalog** for governance and security.
 
 - [Section 1: Introduction to Databricks Lakehouse Platform](./section-01-introduction/)
 - [Section 2: Databricks Warehouse Components](./section-02-warehouse-components/)
-- [Section 3: Introduction to Unity Catalog](https://github.com/SalmaBoukhris/Databricks-Certified-Data-Engineer-Associate---Preparation/tree/main/1-%20Databricks%20Lakehouse%20Platform/section-3-Introduction-to-unity-catalog)
+- [Section 3: Introduction to Unity Catalog](https://github.com/SalmaBoukhris/Databricks-Certified-Data-Engineer-Associate---Preparation/tree/main/1-%20Databricks%20Lakehouse%20Platform/section-03-Introduction-to-unity-catalog)
 
 
 -----
