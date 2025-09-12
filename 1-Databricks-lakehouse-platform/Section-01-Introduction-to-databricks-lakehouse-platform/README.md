@@ -1,6 +1,6 @@
 # Section 1: Introduction to databricks Lakehouse Platform 
 
-# ‣ 1.1 Data Lakehouse Overview
+## ‣ 1.1 Data Lakehouse Overview
 
 
 The screenshots used for this section were taken from the [Databricks Certified Data Engineer Associate - Ultimate Prep Course](https://www.udemy.com/course/databricks-certified-data-engineer-associate-ultimate-prep/?couponCode=PMNVD1525) .
@@ -9,7 +9,7 @@ The screenshots used for this section were taken from the [Databricks Certified 
          
 
 
-##  ‣ Data Warehouse
+###  ‣ Data Warehouse
 - **Easy way:** A data warehouse is like a **well-organized library**.  
 - Data is **cleaned, structured, and optimized**, so you can ask questions quickly using SQL queries or dashboards.  
 - **Examples:** Snowflake, Google BigQuery, Amazon Redshift.  
@@ -22,7 +22,7 @@ The screenshots used for this section were taken from the [Databricks Certified 
 
 
 
-##  ‣ Data Lake
+###  ‣ Data Lake
 - **Easy way:** A data lake  is like a **big storage pool**where you throw all kinds of data ,raw  (collected directly from a source) ( , messy, structured (tables) or unstructured (videos).
 -  Usually in file formats like CSV, JSON, or Parque
 -  Imagine a giant “Dropbox” for your company’s raw data.
@@ -31,7 +31,7 @@ The screenshots used for this section were taken from the [Databricks Certified 
 👉 **Use Case:** Best for storing everything cheaply (good for machine learning, logs, IoT, historical data).
 
 
-## ‣ Delta Lake
+### ‣ Delta Lake
 - A storage layer built on top of a data lake.  
 - Tech layer on top of data lake.  
 - Turns raw data lake into a reliable data lakehouse.  
@@ -46,7 +46,7 @@ The screenshots used for this section were taken from the [Databricks Certified 
   - Efficient updates & deletes (MERGE INTO).  
 
 
-## ‣ Delta Table
+### ‣ Delta Table
 - A Delta Table is a specific table stored in Delta Lake format.  
 - Basically a single organized dataset inside Delta Lake.  
 - Under the hood, backed by:  
@@ -70,7 +70,7 @@ Delta log doesn’t track row-level updates directly.
 That’s how time travel works — the log tells Spark which Parquet files to use for each version.  
 
 
-## ‣ Dataset
+### ‣ Dataset
 - A dataset = a collection of data (usually rows + columns).  
 - It can live anywhere: in a file, in a database, or in a data lake.  
 - Formats: CSV, JSON, Excel, Parquet, etc.  
@@ -80,7 +80,7 @@ That’s how time travel works — the log tells Spark which Parquet files to us
 <img src="https://raw.githubusercontent.com/SalmaBoukhris/Databricks-Certified-Data-Engineer-Associate---Preparation/refs/heads/main/1-Databricks-lakehouse-platform/Images/Section1/PIC%203.png" alt="Data Lakehouse Overview" width="500"/>
 
 
-## ‣ Data Lakehouse
+### ‣ Data Lakehouse
 - Easy way: A data lakehouse is like combining the Dropbox (data lake) with the library (data warehouse) in one place.  
 - You don’t need to copy data between a messy lake and a structured warehouse — you can store raw + structured data together and still query it fast.  
 - Databricks actually invented the Lakehouse concept.  
@@ -110,13 +110,13 @@ ACID = four key rules that make data safe and consistent:
    - Example: If a cluster fails, yesterday’s fraud results are still there in the Delta table.  
 ---
 
-# 1.2 Medallion Architecture
+## 1.2 Medallion Architecture
 
 
 <img src="https://raw.githubusercontent.com/SalmaBoukhris/Databricks-Certified-Data-Engineer-Associate---Preparation/refs/heads/main/1-Databricks-lakehouse-platform/Images/Section1/PIC%204.png" alt="Data Lakehouse Overview" width="500"/>
 
 
-## ‣ Medallion Architecture
+### ‣ Medallion Architecture
 🔹 The standard Lakehouse data flow in Databricks:  
 **Bronze → Silver → Gold (Curated)**  
 
@@ -158,7 +158,7 @@ txn_id | customer_id | amount_usd | timestamp | risk_score
 
 ---
 
-# 1.3 Databricks Overview 
+## 1.3 Databricks Overview 
 
 ### ‣ What is Databricks?
 - Databricks is a **company + platform** built on top of Apache Spark.  
@@ -257,59 +257,39 @@ Some famous Apache projects:
 👉 Fraud is prevented **within seconds** of a bad transaction.  
 
 ---
-# ‣ 1.4 Creating a Databricks Service
+## ‣ 1.4 Creating a Databricks Service
 
     
-### Steps
-1. Sign in to the **Azure Portal**.  
-2. From the **top left menu (3 lines)**, click **Create a resource**.  
-3. Search for **Azure Databricks** (black and red logo), then click **Create**.  
+### 1.4 Creating a Databricks Service
 
-<img src="https://raw.githubusercontent.com/SalmaBoukhris/Databricks-Certified-Data-Engineer-Associate---Preparation/refs/heads/main/1-Databricks-lakehouse-platform/Images/Section1/PIC%206.png" alt="Data Lakehouse Overview" width="500"/>
+**Go to Azure Portal**  
+- Sign in to [portal.azure.com](https://portal.azure.com).
 
+**Create Resource**  
+- Click **Create a resource**.  
+- Search for **Azure Databricks**.  
+- Click **Create**.  
 
+**Choose Subscription and Resource Group**  
+- Pick the subscription where costs will be billed.  
+- Either select an existing **Resource Group** or create a new one.  
 
-### Configuration
-- **Resource group:** Create a new one → `DE-Learning`  
-- **Workspace name:** `DE-Learning-WS`  
-- **Region:** Canada  
-- **Pricing Tier:** Premium
+**Configure Workspace Basics**  
+- **Workspace name** → a unique name (e.g., `databricks-uc-demo`).  
+- **Region** → choose the same region where you’ll set up Unity Catalog.  
+- **Pricing tier** → usually **Premium** (needed for Unity Catalog).  
 
+**Review + Create**  
+- Click **Review + Create**.  
+- After validation, click **Create**.  
+- Deployment takes a few minutes.  
 
-➡️ Click **Next** to continue.  
-
-<img src="https://raw.githubusercontent.com/SalmaBoukhris/Databricks-Certified-Data-Engineer-Associate---Preparation/refs/heads/main/1-Databricks-lakehouse-platform/Images/Section1/PIC%207.png" alt="Data Lakehouse Overview" width="500"/>
-
----
-
-
-### Encryption Settings
-1. Click **Next**.  
-2. **Encryption:** Leave them off.  
-
-<img src="https://raw.githubusercontent.com/SalmaBoukhris/Databricks-Certified-Data-Engineer-Associate---Preparation/refs/heads/main/1-Databricks-lakehouse-platform/Images/Section1/PIC%208.png" alt="Data Lakehouse Overview" width="500"/>
-
----
-
-### Additional Settings
-
-1. Click **Next** again.  
-2. Leave the remaining options off / default.  
-
-<img src="https://raw.githubusercontent.com/SalmaBoukhris/Databricks-Certified-Data-Engineer-Associate---Preparation/refs/heads/main/1-Databricks-lakehouse-platform/Images/Section1/PIC%209.png" alt="Data Lakehouse Overview" width="500"/>
-
+**Open the Workspace**  
+- Once deployment finishes, go to the resource.  
+- Click **Launch Workspace** to open Databricks in a new tab.  
 
 ---
-
-### Final Step
-1. Click **Review + Create**.  
-2. Wait for validation to succeed.  
-3. Click **Create**.  
-
-<img src="https://raw.githubusercontent.com/SalmaBoukhris/Databricks-Certified-Data-Engineer-Associate---Preparation/refs/heads/main/1-Databricks-lakehouse-platform/Images/Section1/PIC%2010.png" alt="Data Lakehouse Overview" width="500"/>
-
----
-# ‣ 1.5 Databricks User Interface
+## ‣ 1.5 Databricks User Interface
 
 <img src="https://raw.githubusercontent.com/SalmaBoukhris/Databricks-Certified-Data-Engineer-Associate---Preparation/refs/heads/main/1-Databricks-lakehouse-platform/Images/Section1/PIC%2011.png" alt="Data Lakehouse Overview" width="500"/>
 
