@@ -1,7 +1,7 @@
 # Section : Introduction to Unity Catalog
 
 ---
-## ‣ 3.1 unity catalog bject model
+## ‣ 3.1 unity catalog Object model
 
 <img src="https://raw.githubusercontent.com/SalmaBoukhris/Databricks-Certified-Data-Engineer-Associate---Preparation/refs/heads/main/1-Databricks-lakehouse-platform/Images/Section3/s3p1.png" alt="Data Lakehouse Overview" width="500"/>
 
