@@ -149,3 +149,62 @@ When creating or editing clusters that will use Unity Catalog, make sure:
   - This is the raw storage where your files (Parquet, Delta Lake, etc.) actually live.  
   - Spark never directly talks to ADLS/S3 — it always goes **through Unity Catalog governance**.  
 
+## 3.5 Configure Access to Cloud Storage for Databricks (Unity Catalog) 🔑
+
+The goal is to let **Databricks Unity Catalog** access external data securely stored in **Azure Storage**.
+
+
+#### Step 1: Create an Access Connector
+You first need an **Access Connector for Azure Databricks**.  
+This acts as a **managed identity** — a secure bridge that Databricks uses to authenticate to Azure resources **without storing secrets**.  
+
+
+#### Step 2: Create a Storage Account
+Next, create an **Azure Storage Account**, which will serve as your data lake.  
+
+**Important considerations:**  
+- **Storage account name** → must be all lowercase (letters and numbers only).  
+- **Redundancy** → choose *Locally Redundant Storage (LRS)* since it’s the most cost-effective.  
+- **Hierarchical namespace** → must be enabled to use **Data Lake Gen2 features** (directories, ACLs, big data performance).  
+
+This makes the storage account compatible with Databricks for analytics workloads.  
+
+
+#### Step 3: Assign Access Roles
+Now you need to give Databricks permission to read/write data in the storage.  
+
+1. Go to the **storage account’s IAM settings**.  
+2. Assign the **Storage Blob Data Contributor** role.  
+3. Instead of a user, assign this role to the **Access Connector (managed identity)** created in Step 1.  
+
+✅ This ensures Databricks can interact with your data, but still respects **Azure RBAC**.  
+
+
+#### Step 4: Create a Storage Credential in Databricks
+Inside Databricks, create a **storage credential** linked to the Access Connector.  
+This tells Unity Catalog: *“when accessing storage, use this managed identity.”*  
+
+- Credentials are created under:  
+  **Catalog → External Data → Credentials**  
+
+
+#### Step 5: Create Containers in Storage
+In the storage account, create **containers**.  
+Think of containers as top-level folders for organizing your data (e.g., `logs`, `demo`).  
+
+These will later map to **external locations** in Unity Catalog.  
+
+
+#### Step 6: Create External Locations in Databricks
+Finally, in Databricks, register your containers as **external locations**.  
+
+- Each external location points to a container in your storage account.  
+- The command ties the location to the **storage credential**.  
+
+**Example (conceptual):**
+```sql
+CREATE EXTERNAL LOCATION demo_location
+URL 'abfss://demo@<storageaccount>.dfs.core.windows.net/'
+WITH (STORAGE CREDENTIAL my_credential);
+```
+
