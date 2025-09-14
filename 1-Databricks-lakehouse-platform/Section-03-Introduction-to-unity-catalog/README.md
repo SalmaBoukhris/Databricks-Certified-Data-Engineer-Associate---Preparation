@@ -108,4 +108,27 @@ Use **managed** for new projects you fully govern in UC; use **external** when y
 - No `LOCATION` in `CREATE TABLE` → **Managed** (files go to the schema/catalog managed location).  
 - `LOCATION '…'` provided → **External**.  
 
+## 3.3 Create and Configure a Unity Catalog Metastore
+
+#### Step 1 – Create the Metastore
+- Go to the **Databricks Admin Console** (only account admins can do this).  
+- In the left menu, select **Catalog → Metastores → Create Metastore**.  
+- Enter the following:  
+  - **Name**: Give your metastore a name (e.g., `main-metastore`).  
+  - **Region**: Select the same cloud region as your Databricks workspace.  
+  - **ADLS Gen2 path**: Leave this blank (optional).  
+  - **Access Connector ID**: Provide the Azure Databricks access connector if required.  
+
+#### Step 2 – Assign the Metastore to a Workspace
+- Still in the Admin Console, go to **Workspaces**.  
+- Select the workspace you want to connect.  
+- Click **Assign Metastore** and choose the one you just created.  
+- Confirm the assignment.  
+
+#### Step 3 – Verify Cluster Configuration
+When creating or editing clusters that will use Unity Catalog, make sure:  
+- **Runtime**: Use a Databricks Runtime that supports Unity Catalog (**11.x or higher**).  
+- **Access Mode**: Choose **Single User** or **Shared** (not *No Isolation*).  
+- **Credential Passthrough**: Keep this **disabled**.  
+
 
