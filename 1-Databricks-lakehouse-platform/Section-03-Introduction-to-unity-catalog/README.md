@@ -127,7 +127,7 @@ Use **managed** for new projects you fully govern in UC; use **external** when y
 
 #### Step 3 – Verify Cluster Configuration
 When creating or editing clusters that will use Unity Catalog, make sure:  
-- **Runtime**: Use a Databricks Runtime that supports Unity Catalog (**11.x or higher**).  
+- **Runtime**: Use a Databricks Runtime that supports Unity Catalog (**11.3 or higher**).  
 - **Access Mode**: Choose **Single User** or **Shared** (not *No Isolation*).  
 - **Credential Passthrough**: Keep this **disabled**.  
 
