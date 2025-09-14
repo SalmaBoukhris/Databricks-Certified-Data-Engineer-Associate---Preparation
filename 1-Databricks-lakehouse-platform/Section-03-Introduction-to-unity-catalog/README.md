@@ -131,4 +131,21 @@ When creating or editing clusters that will use Unity Catalog, make sure:
 - **Access Mode**: Choose **Single User** or **Shared** (not *No Isolation*).  
 - **Credential Passthrough**: Keep this **disabled**.  
 
+## 3.4 Configure access to cloud storage
+
+- **Users and Applications**  
+  - Data engineers, analysts, or applications send queries/commands (like `SELECT`, `INSERT`, etc.) into Databricks.  
+
+- **Compute Layer (Apache Spark Cluster)**  
+  - The cluster (running Spark) does the actual compute work.  
+  - Spark doesn’t directly know about your storage permissions; it relies on Unity Catalog for governance.  
+
+- **Unity Catalog (Metastore inside it)**  
+  - The **metastore** acts like a “traffic controller” for all data requests.  
+  - It checks **permissions** (who is allowed to read/write this table or file).  
+  - It maps logical objects (**Catalog → Schema → Table**) to physical storage locations.  
+
+- **Data Storage (ADLS, S3, GCS)**  
+  - This is the raw storage where your files (Parquet, Delta Lake, etc.) actually live.  
+  - Spark never directly talks to ADLS/S3 — it always goes **through Unity Catalog governance**.  
 
