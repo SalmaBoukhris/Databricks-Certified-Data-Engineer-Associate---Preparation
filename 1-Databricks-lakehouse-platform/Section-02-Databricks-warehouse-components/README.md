@@ -481,4 +481,30 @@ These environment variables can be accessed inside your Spark jobs and notebooks
   - Install extra libraries (e.g., custom Python package, system dependency).  
   - Configure environment variables.  
   - Mount external storage.  
+---
+
+### 2.4 Databricks Notebooks
+- Notebooks are where you write and run code in Databricks (**Scala, Python, SQL, R**).  
+- To execute commands, a notebook must be **attached to a running cluster**.  
+- Organize your work inside **folders in the Workspace**.  
+
+---
+
+### 2.5 Databricks Commands
+- `%python`, `%sql`, `%scala`, `%r` → Run a cell in a specific language.  
+- `%md` → Add **Markdown** documentation.  
+- `%fs` → Work with **Databricks File System (DBFS)**.  
+- `%sh` → Run **Linux shell commands** on the driver node.  
+- `%pip` → Install Python libraries.  
+- `%run` → Import and run another notebook.  
+
+---
+
+### 2.6 Databricks Utilities
+
+**File System (`dbutils.fs`) → Manage files in DBFS**
+```python
+dbutils.fs.ls("/")               # list files
+dbutils.fs.mkdirs("/mnt/data")   # make directory
+dbutils.fs.rm("/mnt/data", True) # remove folder
 
