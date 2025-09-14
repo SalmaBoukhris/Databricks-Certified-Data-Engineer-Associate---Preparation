@@ -1,4 +1,4 @@
-# Section : Introduction to Unity Catalog
+# Section 3: Introduction to Unity Catalog
 
 ---
 ## ‣ 3.1 unity catalog Object model
