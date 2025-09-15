@@ -1,6 +1,6 @@
 # Section 2: Apache Spark Overview
 ---
-## ETL with Apache Spark   
+## 1.1 ETL with Apache Spark   
 
 
 #### How Spark Fits into ETL
