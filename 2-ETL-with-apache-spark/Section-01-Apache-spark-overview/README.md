@@ -154,7 +154,7 @@ This hierarchy ensures organizations can meet compliance requirements:
 - **Regions**: Supported in all Databricks regions.  
 
 
-👉 [You’ll find all the commands in this link, in Microsoft documentation.](https://learn.microsoft.com/en-us/azure/databricks/catalogs/create-catalog)  
+
 
 ## 1.3 Views in Databricks
 
