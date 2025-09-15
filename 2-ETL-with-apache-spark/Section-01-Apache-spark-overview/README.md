@@ -52,7 +52,10 @@ It works across all workspaces in a region, so policies and rules apply everywhe
 - Compared to the old Hive metastore, UC’s metastore is **multi-tenant** and works across workspaces, but still separates data logically by region.  
 
 
-## The Object Model (3-Level Hierarchy)
+## Unity Catalog  Object Model 
+
+<img src="https://raw.githubusercontent.com/SalmaBoukhris/Databricks-Certified-Data-Engineer-Associate---Preparation/refs/heads/main/2-ETL-with-apache-spark/Images/3LEVEL.png" alt="Data Lakehouse Overview" width="600"/>
+
 1. **Catalogs (Top level)**  
    - Highest level of organization.  
    - Often represent environments (prod, dev), business domains (finance, HR), or sensitivity levels (public, confidential).  
