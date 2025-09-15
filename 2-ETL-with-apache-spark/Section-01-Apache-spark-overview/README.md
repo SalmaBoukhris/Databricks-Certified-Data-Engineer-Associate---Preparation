@@ -156,7 +156,7 @@ This hierarchy ensures organizations can meet compliance requirements:
 
 👉 [You’ll find all the commands in this link, in Microsoft documentation.](https://learn.microsoft.com/en-us/azure/databricks/catalogs/create-catalog)  
 
-## Views in Databricks
+## 1.3 Views in Databricks
 
 - **View** → Permanent, stored in the metastore.  
   - Survives cluster restarts.  
