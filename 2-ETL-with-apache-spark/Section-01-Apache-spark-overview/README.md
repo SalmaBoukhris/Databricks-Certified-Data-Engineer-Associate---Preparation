@@ -156,5 +156,18 @@ This hierarchy ensures organizations can meet compliance requirements:
 
 👉 [You’ll find all the commands in this link, in Microsoft documentation.](https://learn.microsoft.com/en-us/azure/databricks/catalogs/create-catalog)  
 
+## Views in Databricks
+
+- **View** → Permanent, stored in the metastore.  
+  - Survives cluster restarts.  
+  - Accessible across sessions and by other users (with permissions).  
+
+- **Temporary View** → Session-scoped.  
+  - Exists only while the current notebook/cluster session is running.  
+  - Disappears when the session ends.  
+
+- **Global Temporary View** → Shared across all notebooks and sessions on the same cluster.  
+  - Still temporary, but stored in a special schema (`global_temp`).  
+  - Persists until the cluster shuts down.  
 
  
