@@ -170,7 +170,4 @@ This hierarchy ensures organizations can meet compliance requirements:
   - Still temporary, but stored in a special schema (`global_temp`).  
   - Persists until the cluster shuts down.  
 
-## Project 
-
-https://salmaboukhris.github.io/Databricks-Certified-Data-Engineer-Associate---Preparation/
  
