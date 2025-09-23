@@ -1,4 +1,4 @@
-# Section 2: Apache Spark Overview
+# Section 1: Apache Spark Overview
 ---
 ## 1.1 ETL with Apache Spark   
 
