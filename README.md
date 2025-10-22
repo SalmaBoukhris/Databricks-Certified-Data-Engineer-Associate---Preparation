@@ -123,29 +123,6 @@ It includes:
 
 <br clear="left"/>
 
-<p>
-  <img src="https://img.youtube.com/vi/w0Qz-LbYatM/0.jpg"
-       alt="Databricks SQL Course Part 1" width="160" align="left" />
-
-  <strong>Databricks SQL: A Comprehensive Guide for Data Analysts (Part 1/2)</strong><br>
-  🔗 <a href="https://www.youtube.com/watch?v=w0Qz-LbYatM&t=12s" target="_blank">
-  Watch Part 1 on YouTube
-  </a>
-</p>
-
-<br clear="left"/>
-
-<p>
-  <img src="https://img.youtube.com/vi/w0Qz-LbYatM/0.jpg"
-       alt="Databricks SQL Course Part 2" width="160" align="left" />
-
-  <strong>Databricks SQL: A Comprehensive Guide for Data Analysts (Part 2/2)</strong><br>
-  🔗 <a href="https://www.youtube.com/watch?v=w0Qz-LbYatM&list=PL4i_dCkSm9rtGFee3JA9yQfu6GvpjYUiA&index=7" target="_blank">
-  Watch Part 2 on YouTube
-  </a>
-</p>
-
-<br clear="left"/>
 
 ---
 
