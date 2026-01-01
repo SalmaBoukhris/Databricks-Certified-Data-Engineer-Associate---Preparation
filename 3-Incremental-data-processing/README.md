@@ -1,6 +1,6 @@
 # Section 1: Spark Structured Streaming 
 ---
-## 1.1 Structured Streaming introduction 
+## 1.1 Structured Streaming introduction
 ### Problem it Solves
 Traditional Spark jobs read a **fixed dataset (batch)**.  
 However, many real-world systems (e.g., logs, IoT sensors, clickstreams, payments) produce **never-ending data**.  
