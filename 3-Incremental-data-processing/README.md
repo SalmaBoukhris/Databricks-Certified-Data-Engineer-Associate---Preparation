@@ -94,3 +94,4 @@ query = (spark.readStream
                .start())
 ```
 
+# Section 2: Auto Loader  
