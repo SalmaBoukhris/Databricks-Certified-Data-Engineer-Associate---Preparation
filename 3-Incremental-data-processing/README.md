@@ -132,3 +132,33 @@ Auto Loader fixes this by:
 5. **Sink**  
    Data is now ready for analytics, dashboards, ML, etc.
 
+
+- **Source**: Files land in cloud storage (JSON, CSV, etc.)
+- **Read**: Auto Loader detects only new files
+- **Transform**: Clean, enrich, or reshape the data
+- **Write**: Persist data in structured tables
+- **Sink**: Data is ready for analytics, dashboards, or ML
+
+---
+
+### Example: Auto Loader (Databricks)
+
+```python
+customers_df = (
+    spark.readStream
+        .format("cloudFiles")
+        .option("cloudFiles.format", "json")
+        .option("cloudFiles.useNotifications", "true")
+        .option(
+            "cloudFiles.schemaLocation",
+            "/Volumes/gizmobox/landing/operational_data/customers_stream/_schema"
+        )
+        .option("cloudFiles.inferColumnTypes", "true")
+        .option(
+            "cloudFiles.schemaEvolutionMode",
+            "addNewColumns"
+        )
+        .load(
+            "/Volumes/gizmobox/landing/operational_data/customers_stream"
+        )
+)
