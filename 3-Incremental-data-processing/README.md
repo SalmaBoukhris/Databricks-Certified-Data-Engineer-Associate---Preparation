@@ -95,3 +95,40 @@ query = (spark.readStream
 ```
 
 # Section 2: Auto Loader  
+
+
+**Auto Loader** = “watch a folder and process new files automatically”
+
+### What problem it solves
+
+Normally:
+
+- You drop files into cloud storage
+- You don’t know which ones were already processed
+- Schemas change and things break
+- Re-running jobs causes duplicates
+
+Auto Loader fixes this by:
+
+- Remembering what it already processed
+- Handling **new files only**
+- Adapting when new columns appear
+- Running continuously or on a schedule
+
+### How the flow works
+
+1. **Source**  
+   Files land in cloud storage (JSON, CSV, etc.)
+
+2. **Read**  
+   Auto Loader watches the location and notices **only new files**
+
+3. **Transform**  
+   You clean, enrich, or reshape the data
+
+4. **Write**  
+   Results are saved in a structured format (usually tables)
+
+5. **Sink**  
+   Data is now ready for analytics, dashboards, ML, etc.
+
